@@ -1,0 +1,14 @@
+# tìm kiếm Fibonaci từ 0 0 1000
+n0 =  0
+n1 =  1
+n2 =  0
+in (n0)
+in (n1)
+trong khi n2 < 1000 :
+    n2 = n0 + n1
+    nếu n2 < 1000 :
+        in (n2)
+        n0 = n1
+        n1 = n2
+    khác :
+        phá vỡ
