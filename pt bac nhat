@@ -1,0 +1,39 @@
+<? phiên bản xml = " 1.0 " ?>
+< chuyển đổi tập tin thuật  toán = " 2.11 " >
+    < thuộc tính >
+        < tên thuộc tính  = " tên " giá trị = " " /> 
+        < tên thuộc tính  = " tác giả " value = " Quản trị viên " /> 
+        < tên thuộc tính  = " về " giá trị = " " /> 
+        < tên thuộc tính  = " đã lưu " value = " 2019-03-10 04:54:02 PM " /> 
+        < Thuộc tính  tên = " tạo ra "  giá trị = " QWRtaW5pc3RyYXRvcjs5TFRFQ1RYNjhTWERYN0M7MjAxOS0wMy0xMDswNDo0NzoyOSBQTTszNzQ3 " />
+        < Thuộc tính  tên = " sửa "  giá trị = " QWRtaW5pc3RyYXRvcjs5TFRFQ1RYNjhTWERYN0M7MjAxOS0wMy0xMDswNDo1NDowMiBQTTsxOzM4NDQ = " />
+    </ thuộc tính >
+    < function  name = " Main "  type = " Không "  biến = " " >
+        < tham số />
+        < cơ thể >
+            < nhận xét  văn bản = " Gi & # 7843; i ph & # 432; & # 417; ng tr & # 236; nh b & # 7853; c nh & # 7845; ta * x + b = 0 " />
+            < khai báo  name = " a "  type = " Real "  mảng = " Sai "  size = " " />
+            < khai báo  name = " b "  type = " Real "  mảng = " Sai "  size = " " />
+            < khai báo  name = " x "  type = " Real "  mảng = " Sai "  size = " " />
+            < biểu thức đầu ra  = " & quot; Nh & # 7853; pv & # 224; oa va b & quot; " newline = " Đúng " /> 
+            < biến đầu vào  = " a " />
+            < biến đầu vào  = " b " />
+            < if  biểu thức = " a == 0 " >
+                < thì >
+                    < if  biểu thức = " b == 0 " >
+                        < thì >
+                            < đầu ra  biểu thức = " & quot; Ph & # 432; & # 417; ng trinh co v & # 244; s & # 7889; nghi & # 7879; m & quot; "  newline = " Đúng " />
+                        </ thì >
+                        < khác >
+                            < biểu thức đầu ra  = " & quot; Ph & # 432; & # 417; ng tr & # 236; nh v & # 244; nghi & # 7879; m & quot; " newline = " Đúng " /> 
+                        </ khác >
+                    </ nếu >
+                </ thì >
+                < khác >
+                    < gán  biến = " x "  biểu thức = " -b / a " />
+                    < biểu thức đầu ra  = " & quot; Ph & # 432; & # 417; ng tr & # 236; nh c & # 243; nghi & # 7879; m duy nh & # 7845; tx = & quot; & amp; x " newline = " Đúng " /> 
+                </ khác >
+            </ nếu >
+        </ cơ thể >
+    </ chức năng >
+</ thuật toán >
