@@ -1,0 +1,10 @@
+# tìm kiếm trong phần mềm và từ 0
+in ( 2 )
+in ( 3 )
+cho tôi trong  phạm vi ( 5 , 100 ):
+    c =  int (i / 2 )
+    cho j trong  phạm vi ( 2 , c):
+        nếu tôi % j ==  0 :
+          phá vỡ
+    khác :
+            in (i)
